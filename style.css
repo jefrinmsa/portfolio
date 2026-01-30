@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+.profile-photo {
+  width: 120px;
+  border-radius: 50%;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 12px;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+.skills-list li {
+  background: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
